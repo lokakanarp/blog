@@ -5,16 +5,16 @@
     <title>Document</title>
 </head>
 <body>
-      <main>
+    <main>
         <form action="new_insert_blogpost.php" method="POST">
-         Namn
+         <h3>Namn</h3>
           <input name="username" type="text">
-         Titel
+         <h3>Titel</h3>
           <input name="new_post_title" type="text">
           <select name="new_category_id">
-            <option value="1">watches</option>
-            <option value="2">sunglasses</option>
-            <option value="3">Interior</option>
+                <option value="1">watches</option>
+                <option value="2">sunglasses</option>
+                <option value="3">Interior</option>
           </select>
           <input type="hidden" name="id" value="<?= $_GET["id"] ?>">
           <br>
